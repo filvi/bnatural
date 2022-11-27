@@ -1,0 +1,156 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+/*
+   * Extra utilities
+   */
+
+.flex-equal > * {
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    flex: 1;
+  }
+}
+
+.card {
+  background-size: cover;
+  background-position: bottom right;
+  //   filter: grayscale(0.1);
+  //   filter: sepia(0.5);
+}
+
+.page-header {
+  background-size: cover;
+  background-repeat: no-repeat;
+  // filter: grayscale(0.1);
+  // filter: sepia(0.5);
+  background-position: center;
+}
+
+section#content {
+  min-height: 100vh;
+}
+
+.piano {
+  background-image: url("/assets/img/extra/piano.svg");
+}
+.piano-inverted {
+  background-image: url("/assets/img/extra/piano.inverted.svg");
+}
+.piano,
+.piano-inverted {
+  background-size: contain;
+  background-repeat: repeat-x;
+  min-height: 10vw;
+}
+
+#custom-cards,
+#hero,
+#rationale {
+  padding-top: 10vw;
+  padding-bottom: 10vw;
+}
+
+#like {
+  padding-top: 25vw;
+  padding-bottom: 25vw;
+}
+
+#hero {
+  background-image: url("/assets/img/bg/piano.webp");
+  background-size: cover;
+  color: white;
+}
+
+#hero {
+  position: relative;
+  padding-bottom: 550px;
+  &:after {
+    content: "";
+    height: 450px;
+
+    z-index: 99;
+    position: absolute;
+    background-size: cover;
+
+    width: 100vw;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    background-image: url("/assets/img/decoy/decoy-outro-dark.svg");
+  }
+}
+#exercise > * {
+  padding-top: 7.5vw;
+  padding-bottom: 7.5vw;
+}
+#exercise,
+#like {
+  background-color: #1b1f1b;
+}
+
+#rationale {
+  position: relative;
+  &:after {
+    content: "";
+    height: 450px;
+
+    z-index: 99;
+    position: absolute;
+    background-size: cover;
+
+    width: 100vw;
+    left: 0;
+    right: 0;
+    bottom: -450px;
+
+    background-image: url("/assets/img/decoy/decoy-intro.svg");
+  }
+}
+
+#whoami {
+  position: relative;
+
+  &:before {
+    content: "";
+    height: 450px;
+
+    z-index: 99;
+    position: absolute;
+    background-size: cover;
+
+    width: 100vw;
+    left: 0;
+    right: 0;
+    top: -400px;
+
+    background-image: url("/assets/img/decoy/decoy-outro.svg");
+  }
+}
+
+.active {
+  color: white !important;
+  font-weight: bold;
+}
+
+.cursor-pointer:hover {
+  cursor: pointer;
+}
+
+#octave {
+  width: 100%;
+  margin-top: 3vw;
+  img {
+    display: block;
+    height: 4vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

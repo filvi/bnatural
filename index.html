@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice music</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <header class="p-3 text-bg-dark">
+      <div class="container">
+        <div
+          class="d-flex flex-wrap align-items-center justify-content-between justify-content-lg-between"
+        >
+          <div class="">
+            <a
+              href="/"
+              class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none"
+            >
+              <img
+                class=""
+                src="/assets/img/logo/Logo.White.svg"
+                width="40"
+                height="32"
+                role="img"
+                aria-label="Bootstrap"
+              />
+              <h1 class="display-6 lh-2 pb-0 mb-0 fw-bold ms-2">Be Natural</h1>
+            </a>
+          </div>
+
+          <div class="text-end">
+            <ul
+              class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"
+            >
+              <li class="nav-item">
+                <a
+                  href="index.html#"
+                  class="nav-link px-2 text-secondary active"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="index.html#exercise"
+                  class="nav-link px-2 text-secondary dropdown-toggle"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Exercise</a
+                >
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#">Quick Read: notes</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Quick Read: intervals</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Missing note in chords</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="index.html#rationale"
+                  class="nav-link px-2 text-secondary"
+                  >Why this website</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="index.html#whoami" class="nav-link px-2 text-secondary"
+                  >Whoami</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="legal.html" class="nav-link px-2 text-secondary"
+                  >Legal stuff</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="hero">
+        <div class="px-4 py-5 my-5 text-center">
+          <img
+            src="/assets/img/logo/Logo.White.svg"
+            alt="Be natural logo"
+            width="100"
+            height="100"
+            class="mb-5"
+          />
+          <!-- <h1 class="display-5 pt-3 pb-5 fw-bold">Be Natural</h1> -->
+          <div class="col-lg-6 mx-auto">
+            <p class="lead display-6 mb-5">
+              You are natural when perform effortlessly... <br />And to get
+              there you need to train.
+            </p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+              <a
+                href="#exercise"
+                type="button"
+                class="btn btn-outline-light btn-lg px-4"
+              >
+                Jump right in
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="exercise" class="mb-5">
+        <div class="container" id="custom-cards">
+          <h1 class="display-5 fw-bold lh-1 pt-5 mb-3 text-white">Exercises</h1>
+          <p class="lead text-white">
+            Here you can find some exercise that can help you strengthen your
+            skills and make it natural
+          </p>
+          <div
+            class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5"
+          >
+            <div class="col">
+              <div
+                class="card h-100 overflow-hidden text-bg-dark rounded-0 border-0 shadow-lg"
+                style="background-image: url('assets/img/cards/1.webp')"
+              >
+                <div
+                  class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+                >
+                  <h3 class="pb-5 mt-5 mb-5 display-6 lh-1 fw-bold">
+                    Quick read:<br />notes
+                  </h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div
+                class="card card-cover h-100 overflow-hidden text-bg-dark rounded-0 border-0 shadow-lg"
+                style="background-image: url('assets/img/cards/2.webp')"
+              >
+                <div
+                  class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+                >
+                  <h3 class="pb-5 mt-5 mb-5 display-6 lh-1 fw-bold">
+                    Quick read:<br />intervals
+                  </h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div
+                class="card card-cover h-100 overflow-hidden text-bg-dark rounded-0 border-0 shadow-lg"
+                style="background-image: url('assets/img/cards/3.webp')"
+              >
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                  <h3 class="pb-5 mt-5 mb-5 display-6 lh-1 fw-bold">
+                    Missing note in chords
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="piano w-100 h-100 p-5"></div>
+      </section>
+
+      <section id="rationale">
+        <div class="container">
+          <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+              <img
+                src="/assets/img/extra/charles.webp"
+                class="d-block mx-lg-auto img-fluid"
+                alt="Bootstrap Themes"
+                width="700"
+                height="500"
+                loading="lazy"
+              />
+              <caption>
+                <span class="text-right d-inline"
+                  >All rights reserved Charles Cornell Academy - An Intro to the
+                  piano
+                </span>
+              </caption>
+            </div>
+            <div class="col-lg-6">
+              <h1 class="display-5 fw-bold lh-1 mb-3">
+                Why I built this website
+              </h1>
+              <p class="lead">
+                I started learning piano thanks to Charles at
+                <a
+                  href="https://cornellmusicacademy.teachable.com/"
+                  target="_blank"
+                  rel="nofollow"
+                  >Cornell Music Academy</a
+                >
+                and his courses "<b>An intro to the Piano</b>". Building
+                something for the comunity is a way contribute back somehow, or
+                at least I hope so.
+              </p>
+              <p class="lead">
+                I started doing all exercises that he was providing. Those
+                exercises were really good but I think that they are meant to be
+                a starting exercise. This to understand the basics to work your
+                way up and strengthen your skills. To become a second nature.
+              </p>
+              <p class="lead">
+                Charles is an amazing teacher, he can explain in a simple way
+                difficult topics and make them stick.
+              </p>
+
+              <p class="lead">
+                If you are interested in learning piano I highly recommend to
+                take a look at his courses at Cornell Music Academy. Same
+                applies for Music theory, Harmony and Improv.
+              </p>
+              <p class="lead">
+                If you are not sure that will like the way he teach maybe you
+                can start watching some of his video on Youtube and who knows
+                maybe you will become a pianist too as I am doing.
+              </p>
+              <div class="d-grid gap-1 d-md-flex justify-content-md-start">
+                <a
+                  href="https://www.youtube.com/@CharlesCornellStudios"
+                  target="_blank"
+                  type="button"
+                  rel="nofollow"
+                  class="btn btn-dark btn-lg px-4"
+                >
+                  Cornell Music Academy
+                </a>
+                <a
+                  href="https://cornellmusicacademy.teachable.com/"
+                  target="_blank"
+                  type="button"
+                  rel="nofollow"
+                  class="btn btn-outline-dark ms-2 btn-lg px-4"
+                >
+                  Youtube video
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="like" class="text-white">
+        <div class="px-4 py-5 my-5 text-center">
+          <h1 class="display-5 fw-bold">Are you enjoying the content?</h1>
+          <div class="col-lg-6 mx-auto">
+            <p class="lead mb-5">
+              If you do like it let me know pressing 👍 it is free 😊!
+            </p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+              <button type="button" class="btn btn-light btn-lg px-4 gap-3">
+                I like it 👍 <small>2</small>
+              </button>
+              <button type="button" class="btn btn-outline-light btn-lg px-4">
+                Or you can offer me a ☕
+              </button>
+            </div>
+            <div id="octave" class="cursor-pointer" data-octave="0">
+              <img
+                id="octaveIcon"
+                src="/assets/img/extra/Octave-up.white.svg"
+                alt="Change octave"
+                srcset=""/>
+            </div>
+          </div>
+        </div>
+        <div class="container mx-auto">
+          <svg
+            width="1285"
+            height="893"
+            viewBox="0 0 1285 893"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g id="homenotes">
+              <rect
+                id="E"
+                class="cursor-pointer"
+                width="167.631"
+                height="893"
+                rx="5"
+                transform="matrix(-1 -1.95447e-07 -3.91038e-08 1 540.145 0)"
+                fill="white"
+              />
+              <rect
+                id="D"
+                class="cursor-pointer"
+                width="167.631"
+                height="893"
+                rx="5"
+                transform="matrix(-1 -1.95447e-07 -3.91038e-08 1 353.889 0)"
+                fill="white"
+              />
+              <rect
+                id="C"
+                class="cursor-pointer"
+                width="167.631"
+                height="893"
+                rx="5"
+                transform="matrix(-1 -1.95447e-07 -3.91038e-08 1 167.631 0)"
+                fill="white"
+              />
+              <rect
+                id="Dsharp"
+                class="cursor-pointer"
+                width="113.824"
+                height="406.662"
+                rx="5"
+                transform="matrix(-1 -1.77103e-07 -4.31542e-08 1 420.111 0)"
+                fill="#1B1F1B"
+              />
+              <rect
+                id="Csharp"
+                class="cursor-pointer"
+                width="114.859"
+                height="406.662"
+                rx="5"
+                transform="matrix(-1 -1.77103e-07 -4.31542e-08 1 233.855 0)"
+                fill="#1B1F1B"
+              />
+              <rect
+                id="B"
+                class="cursor-pointer"
+                width="167.631"
+                height="893"
+                rx="5"
+                transform="matrix(-1 -1.95447e-07 -3.91038e-08 1 1284.55 0)"
+                fill="white"
+              />
+              <rect
+                id="A"
+                class="cursor-pointer"
+                width="167.631"
+                height="893"
+                rx="5"
+                transform="matrix(-1 -1.95447e-07 -3.91038e-08 1 1098.29 0)"
+                fill="white"
+              />
+              <rect
+                id="G"
+                class="cursor-pointer"
+                width="167.631"
+                height="893"
+                rx="5"
+                transform="matrix(-1 -1.95447e-07 -3.91038e-08 1 912.031 0)"
+                fill="white"
+              />
+              <rect
+                id="F"
+                class="cursor-pointer"
+                width="167.631"
+                height="893"
+                rx="5"
+                transform="matrix(-1 -1.95447e-07 -3.91038e-08 1 725.775 0)"
+                fill="white"
+              />
+              <rect
+                id="Asharp"
+                class="cursor-pointer"
+                width="113.824"
+                height="406.662"
+                rx="5"
+                transform="matrix(-1 -1.77103e-07 -4.31542e-08 1 1163.48 0)"
+                fill="#1B1F1B"
+              />
+              <rect
+                id="Gsharp"
+                class="cursor-pointer"
+                width="113.824"
+                height="406.662"
+                rx="5"
+                transform="matrix(-1 -1.77103e-07 -4.31542e-08 1 977.223 0)"
+                fill="#1B1F1B"
+              />
+              <rect
+                id="Fsharp"
+                class="cursor-pointer"
+                width="113.824"
+                height="406.662"
+                rx="5"
+                transform="matrix(-1 -1.77103e-07 -4.31542e-08 1 790.965 0)"
+                fill="#1B1F1B"
+              />
+            </g>
+          </svg>
+        </div>
+      </section>
+      <section id="whoami">
+        <div class="container">
+          <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-lg-6">
+              <h1 class="display-5 fw-bold lh-1 mb-3">Whoami</h1>
+              <p class="lead">
+                I am Filippo Vicari, a Psychologist, Full-Stack Web Developer
+                now I am learning how to play the piano.
+              </p>
+              <p class="lead">
+                I use to work as a teacher so I deeply appreciate the value of
+                learning. I also like open source projects and the rationale
+                behind them. After all without open source internet as we know
+                it could not exist.
+              </p>
+              <p class="lead">
+                I really enjoy doing stuff to help people and I found out that
+                being a developer allows you to do so. For example i developed
+                this simple website that allows you to insert the query once and
+                search for Hi-res media in multiple website. If you need
+                something like that you can go to
+                <a href="https://mediasearch.dev" target="_blank"
+                  >MediaSearch.dev</a
+                >
+                it's free, non tracking and Open Source.
+              </p>
+
+              <p class="lead">
+                Programming is like magic if you write the correct words in the
+                correct order somethign occours. It's so fascinating that almost
+                violates the Law of Conservation of Mass. While programming you
+                can actually create something from nothing, This thanks to the
+                huge work of the people that made this possible.
+              </p>
+              <p class="lead">
+                So to wrap this thing up. Thank you for your attention and if
+                you are interested in other things I've done you can have a look
+                at my Github page or my personal website.
+              </p>
+              <div class="d-grid gap-1 d-md-flex justify-content-md-start">
+                <a
+                  href="https://github.com/filvi"
+                  target="_blank"
+                  type="button"
+                  rel="nofollow"
+                  class="btn btn-dark btn-lg px-4"
+                  >Github</a
+                >
+                <a
+                  href="https://filippovicari.com"
+                  target="_blank"
+                  type="button"
+                  rel="nofollow"
+                  class="btn btn-outline-dark ms-2 btn-lg px-4"
+                >
+                  Personal website
+                </a>
+              </div>
+            </div>
+            <div class="col-10 col-sm-8 col-lg-6">
+              <img
+                src="/assets/img/extra/whoami.webp"
+                class="d-block mx-lg-auto img-fluid"
+                alt="Bootstrap Themes"
+                width="700"
+                height="500"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item">
+          <a href="index.html#" class="nav-link px-2 text-muted">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="index.html#exercise" class="nav-link px-2 text-muted"
+            >Exercise</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="index.html#rationale" class="nav-link px-2 text-muted"
+            >Why this website</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="index.html#whoami" class="nav-link px-2 text-muted"
+            >Whoami</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="legal.html" class="nav-link px-2 text-muted">Legal stuff</a>
+        </li>
+      </ul>
+      <p class="text-center text-muted">© 2022 Filippo Vicari</p>
+    </footer>
+  </body>
+  <!-- JavaScript Bundle with Popper -->
+  <script
+    defer
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"
+  ></script>
+  <script src="index.js"></script>
+</html>
