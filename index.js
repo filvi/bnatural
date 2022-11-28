@@ -30,19 +30,18 @@ function loadNotes() {
     
 
 
-
-    function playC(){playAudio(1 , octave)}
-    function playCsharp(){playAudio(1  , octave)}
-    function playD(){playAudio(2  , octave)}
-    function playDsharp(){playAudio(3  , octave)}
-    function playE(){playAudio(4  , octave)}
-    function playF(){playAudio(5  , octave)}
-    function playFsharp(){playAudio(6  , octave)}
-    function playG(){playAudio(7  , octave)}
-    function playGsharp(){playAudio(8  , octave)}
-    function playA(){playAudio(9  , octave)}
-    function playAsharp(){playAudio(10 , octave)}
-    function playB(){playAudio(11 , octave)}
+    function playC(){       playAudio(1  , octave)}
+    function playCsharp(){  playAudio(2  , octave)}
+    function playD(){       playAudio(3  , octave)}
+    function playDsharp(){  playAudio(4  , octave)}
+    function playE(){       playAudio(5  , octave)}
+    function playF(){       playAudio(6  , octave)}
+    function playFsharp(){  playAudio(7  , octave)}
+    function playG(){       playAudio(8  , octave)}
+    function playGsharp(){  playAudio(9  , octave)}
+    function playA(){       playAudio(10  , octave)}
+    function playAsharp(){  playAudio(11 , octave)}
+    function playB(){       playAudio(12 , octave)}
 
 
     function setListeners(){

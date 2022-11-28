@@ -1,16 +1,16 @@
-<svg width="1285" height="893" viewBox="0 0 1285 893" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1314" height="926" viewBox="0 0 1314 926" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="Notes">
-<rect id="E" width="167.631" height="893" rx="5" transform="matrix(-1 -1.95447e-07 -3.91038e-08 1 540.145 0)" fill="white"/>
-<rect id="D" width="167.631" height="893" rx="5" transform="matrix(-1 -1.95447e-07 -3.91038e-08 1 353.889 0)" fill="white"/>
-<rect id="C" width="167.631" height="893" rx="5" transform="matrix(-1 -1.95447e-07 -3.91038e-08 1 167.631 0)" fill="white"/>
-<rect id="Dsharp" width="113.824" height="406.662" rx="5" transform="matrix(-1 -1.77103e-07 -4.31542e-08 1 420.111 0)" fill="#1B1F1B"/>
-<rect id="Csharp" width="114.859" height="406.662" rx="5" transform="matrix(-1 -1.77103e-07 -4.31542e-08 1 233.855 0)" fill="#1B1F1B"/>
-<rect id="B" width="167.631" height="893" rx="5" transform="matrix(-1 -1.95447e-07 -3.91038e-08 1 1284.55 0)" fill="white"/>
-<rect id="A" width="167.631" height="893" rx="5" transform="matrix(-1 -1.95447e-07 -3.91038e-08 1 1098.29 0)" fill="white"/>
-<rect id="G" width="167.631" height="893" rx="5" transform="matrix(-1 -1.95447e-07 -3.91038e-08 1 912.031 0)" fill="white"/>
-<rect id="F" width="167.631" height="893" rx="5" transform="matrix(-1 -1.95447e-07 -3.91038e-08 1 725.775 0)" fill="white"/>
-<rect id="Asharp" width="113.824" height="406.662" rx="5" transform="matrix(-1 -1.77103e-07 -4.31542e-08 1 1163.48 0)" fill="#1B1F1B"/>
-<rect id="Gsharp" width="113.824" height="406.662" rx="5" transform="matrix(-1 -1.77103e-07 -4.31542e-08 1 977.223 0)" fill="#1B1F1B"/>
-<rect id="Fsharp" width="113.824" height="406.662" rx="5" transform="matrix(-1 -1.77103e-07 -4.31542e-08 1 790.965 0)" fill="#1B1F1B"/>
+<rect id="E" width="167.631" height="893" rx="5" transform="matrix(-1 -1.95447e-07 -3.91038e-08 1 555.145 17)" fill="white"/>
+<rect id="D" width="167.631" height="893" rx="5" transform="matrix(-1 -1.95447e-07 -3.91038e-08 1 368.889 17)" fill="white"/>
+<rect id="C" width="167.631" height="893" rx="5" transform="matrix(-1 -1.95447e-07 -3.91038e-08 1 182.631 17)" fill="white"/>
+<rect id="D sharp" width="113.824" height="406.662" rx="5" transform="matrix(-1 -1.77103e-07 -4.31542e-08 1 435.111 17)" fill="#1B1F1B"/>
+<rect id="C sharp" width="114.859" height="406.662" rx="5" transform="matrix(-1 -1.77103e-07 -4.31542e-08 1 248.855 17)" fill="#1B1F1B"/>
+<rect id="B" width="167.631" height="893" rx="5" transform="matrix(-1 -1.95447e-07 -3.91038e-08 1 1299.55 17)" fill="white"/>
+<rect id="A" width="167.631" height="893" rx="5" transform="matrix(-1 -1.95447e-07 -3.91038e-08 1 1113.29 17)" fill="white"/>
+<rect id="G" width="167.631" height="893" rx="5" transform="matrix(-1 -1.95447e-07 -3.91038e-08 1 927.031 17)" fill="white"/>
+<rect id="F" width="167.631" height="893" rx="5" transform="matrix(-1 -1.95447e-07 -3.91038e-08 1 740.775 17)" fill="white"/>
+<rect id="A sharp" width="113.824" height="406.662" rx="5" transform="matrix(-1 -1.77103e-07 -4.31542e-08 1 1178.48 17)" fill="#1B1F1B"/>
+<rect id="G sharp" width="113.824" height="406.662" rx="5" transform="matrix(-1 -1.77103e-07 -4.31542e-08 1 992.223 17)" fill="#1B1F1B"/>
+<rect id="F sharp" width="113.824" height="406.662" rx="5" transform="matrix(-1 -1.77103e-07 -4.31542e-08 1 805.965 17)" fill="#1B1F1B"/>
 </g>
 </svg>
